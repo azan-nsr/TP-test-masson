@@ -1,0 +1,30 @@
+sudo apt update && sudo apt upgrade -y
+cd Documents
+mkdir TpTest
+cd TpTest
+git init
+nano mobile.css
+ls -a
+git remote add origin https://github.com/azan-nsr/TP-test-masson
+git add mobile.css
+git config user.email "azan.nasir@efrei.net"
+git config user.name "azan-nsr"
+git commit -m "Ajout mobile.css"
+git branch Azan
+git push -u origin Azan
+git checkout Azan
+
+cd ~/Documents
+git clone https://github.com/azan-nsr/TP-test-masson
+cd TP-test-masson
+git checkout William
+nano style.css
+git add style.css
+git commit -m "Modifications style.css"
+git checkout master
+git pull origin master
+git merge William
+git add style.css
+git commit -m "Merge William"
+git push origin master
+
