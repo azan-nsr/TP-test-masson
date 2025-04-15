@@ -1,7 +1,8 @@
+MODIFIé PAR ILYES SLIMANE
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title>Contrôle PHP</title>
+    <title>Index</title>
     <meta charset="UTF-8">
     <meta name="descritpion" content="test maison 1">
     <link rel="stylesheet" href="css/style.css">
@@ -10,7 +11,7 @@
 <body>
     <header>
         <img src="Images/France.png" alt="Logo, Pays, France">
-            <h1> Decouvrir la France</h1>   
+            <h1> Decouverte de la France</h1>   
         <input type="search" name="recherche" maxlength="200" placeholder="Recherche...">
         <input type="image" src="Images/loupe.png">
         </form>
@@ -25,7 +26,7 @@
     </nav>
 
     <main>
-        <h4> LA France</h4>
+        <h4> La France</h4>
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestiae adipisci laboriosam omnis libero fuga molestias, temporibus porro delectus corporis repellendus soluta est sunt. Deserunt id quisquam ex aliquid tenetur!</p>
 
         <img src="/images/France.png" alt="Histoire" height="">
@@ -36,7 +37,7 @@
     </main>
 
     <footer>
-        <h2> N'hesitez pas à laisser votre avis sur google !</h2>
+        <h2> N'hesitez pas à nous faire part de votre avis sur google !</h2>
         &copy; copyright 
     </footer>
 </body>
