@@ -1,0 +1,36 @@
+xécuté sur kali
+Resume des commandes :
+ 
+-sudo apt update && apt upgrade
+-cd Documents
+-mkdir testgit
+-cd testgit
+-git init
+-nano index.txt
+-ls -a
+-git remote add origin https://github.com/azan-nsr/TP-test-masson
+-git add index.txt
+-git config user.email "villamayorgabriel12@gmail.com"
+-git config user.name "Gabsv12"
+-git commit -m "Premiere version de l’index.html"
+-git branch Gabriel
+-git push -u origin Gabriel
+-git checkout Gabriel
+ 
+ 
+Pour récupérer la branche d'Ilyes, la modifier et l'insérer dans le Master :
+-cd Documents
+-git clone https://github.com/azan-nsr/TP-test-masson
+-cd TP-test-masson
+-git checkout Ilyes
+-nano Ilyes.txt
+-La nom de la page a été modifie en créant un nouveau fichier paysages.html ou j’ai copie le contenu de l’ancien fichier.
+-rm Ilyes.txt
+-git add paysages.html
+-git commit -m "Gabriel a modifié le fichier de Ilyes"
+-git checkout master
+-git pull origin master
+-git merge Ilyes
+-git add paysages.html
+-git commit
+-git push origin master
