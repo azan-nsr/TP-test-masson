@@ -1,0 +1,38 @@
+Tout d'abord je demarre la vm que j'avais crée en cours qui me sert pour git.
+Ensuite je tappe les commandes suivantes :
+Pour crée Ma branche :
+
+-sudo apt update && apt upgrade
+-cd Documents
+-mkdir TpTest
+-cd TpTest
+-git init
+-nano Style.css
+-ls -a
+-git remote add origin https://github.com/azan-nsr/TP-test-masson
+-git add Style.css
+-git config user.email "william.pascaloaie@gmail.com"
+-git config user.name "luxary92"
+-git commit -m "William"
+-git branch William
+-git push -u origin William
+-git checkout William
+
+
+
+Pour récupérer la branche d'azan, la modifier et l'insérer dans le Master :
+-cd Documents
+-git clone https://github.com/azan-nsr/TP-test-masson (avec toutes les branches)
+-cd TP-test-masson
+-git checkout azan
+-nano mobile.css
+-J'ai modifier en bas du texte pour ecrire modifier par william 
+-git add mobile.css
+-git commit -m "Modifier par William"
+-git checkout master
+-git pull origin master
+-git merge azan
+-git add mobile.css
+-git commit
+-git push origin master
+
