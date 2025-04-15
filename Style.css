@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    body{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+    header{
+        background-color:  pink;
+        width: 100%;
+        display: flex;
+        flex: wrap;
+        align-items: center;
+        justify-content: space-between;
+}
+    header img{
+        width: 5em;
+}
+    nav {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 100%;
+    text-align: center;
+}
+ 
+    nav a {
+    color: beige;
+    margin: 0 25px;    
+    text-decoration: none;
+}
+    main{
+    background-color: grey;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+    main img{
+    width: 50em;
+}
+    footer{
+    background-color: pink;
+    width: 100%;
+    text-align: center;
+}
+modifier par azan
