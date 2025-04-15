@@ -1,0 +1,43 @@
+MODIFIé PAR ILYES SLIMANE
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Index</title>
+    <meta charset="UTF-8">
+    <meta name="descritpion" content="test maison 1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+<body>
+    <header>
+        <img src="Images/France.png" alt="Logo, Pays, France">
+            <h1> Decouverte de la France</h1>   
+        <input type="search" name="recherche" maxlength="200" placeholder="Recherche...">
+        <input type="image" src="Images/loupe.png">
+        </form>
+
+    </header>
+
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="pages/Paysages.html">Découvrir les paysages iconiques du pays</a>
+
+        
+    </nav>
+
+    <main>
+        <h4> La France</h4>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestiae adipisci laboriosam omnis libero fuga molestias, temporibus porro delectus corporis repellendus soluta est sunt. Deserunt id quisquam ex aliquid tenetur!</p>
+
+        <img src="/images/France.png" alt="Histoire" height="">
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo similique, dolorem minus rem labore voluptates repellat praesentium facere quidem blanditiis ipsam aspernatur voluptate consequatur veritatis. Itaque tenetur similique fugit nihil! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint minus error pariatur consequuntur a nobis non, nostrum facere officiis expedita earum ipsa ratione eaque numquam perferendis magni ullam facilis quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil distinctio doloremque dolorem debitis dicta optio numquam et iure sint, enim dolores provident! Ipsam porro libero hic alias laudantium repellendus eum!</p>
+
+
+    </main>
+
+    <footer>
+        <h2> N'hesitez pas à nous faire part de votre avis sur google !</h2>
+        &copy; copyright 
+    </footer>
+</body>
