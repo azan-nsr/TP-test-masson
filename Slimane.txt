@@ -1,0 +1,37 @@
+SLIMANE
+
+Toutes les commandes :
+créer branche :
+ 
+-sudo apt update && apt upgrade
+-cd Documents
+-mkdir seysey
+-cd seysey
+-git init
+-nano Ilyes.txt 
+-ls -a
+-git remote add origin https://github.com/azan-nsr/TP-test-masson
+-git add Ilyes.txt 
+-git config user.email "ilyesslimane1@gmail.com"
+-git config user.name "seyseyprime"
+-git commit -m "Ilyes"
+-git branch Ilyes
+-git push -u origin Ilyes
+-git checkout William
+ 
+ 
+Pour récupérer la branche d'azan, la modifier et l'insérer dans le Master :
+-cd Documents
+-git clone https://github.com/azan-nsr/TP-test-masson (avec toutes les branches)
+-cd TP-test-masson
+-git checkout Gabriel
+-nano index.txt
+J'ai ecris : MODIFIé par Ilyes et je l'ai changé en index.html
+-git add index.html
+-git commit -m "Ilyes a modifie index"
+-git checkout master
+-git pull origin master
+-git merge Gabriel
+-git add index.html
+-git commit
+-git push origin master
